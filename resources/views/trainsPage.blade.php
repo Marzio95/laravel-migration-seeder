@@ -10,7 +10,7 @@
 </head>
 <body>
     <ul>
-        <h1>Treni</h1>
+        <h1>Treni del giorno</h1>
         @foreach ($myTrains as $train)
         <li>
             <h2>Treno: {{ $train->azienda }}</h2>
