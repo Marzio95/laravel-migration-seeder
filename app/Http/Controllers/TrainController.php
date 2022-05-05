@@ -25,7 +25,7 @@ class TrainController extends Controller
         // $myTrain->save();
 
 
-        $myTrains = Train::all();
+        $myTrains = Train::where('data_treno', '05/05/2022')->get();
         $data = [
             'myTrains' => $myTrains,
         ];

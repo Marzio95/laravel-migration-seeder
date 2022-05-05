@@ -14,6 +14,7 @@
         @foreach ($myTrains as $train)
         <li>
             <h2>Treno: {{ $train->azienda }}</h2>
+            <h2>Data treno: {{ $train->data_treno }}</h2>
             <h2>Stazione partenza: {{ $train->stazione_di_partenza }}</h2>
             <h2>Stazione arrivo: {{ $train->stazione_di_arrivo }}</h2>
             <h2>Orario partenza: {{ $train->orario_di_partenza }}</h2>
