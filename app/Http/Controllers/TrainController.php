@@ -11,16 +11,16 @@ class TrainController extends Controller
     {
 
         $myTrain = new Train();
-        $myTrain->azienda = 'Italo';
+        $myTrain->azienda = 'FrecciaArgento';
         $myTrain->stazione_di_partenza = 'Roma';
-        $myTrain->stazione_di_arrivo = 'Firenze';
+        $myTrain->stazione_di_arrivo = 'Bergamo';
         $myTrain->orario_di_partenza = '11:00';
-        $myTrain->orario_di_arrivo = '13:00';
-        $myTrain->codice_treno = '43583987';
-        $myTrain->numero_carrozze = '11';
-        $myTrain->in_orario = 'SI';
-        $myTrain->cancellato = 'NO';
-        $myTrain->prezzo_biglietto = '18.00';
+        $myTrain->orario_di_arrivo = '16:00';
+        $myTrain->codice_treno = '456747862345';
+        $myTrain->numero_carrozze = '4';
+        $myTrain->in_orario = 'NO';
+        $myTrain->cancellato = 'SI';
+        $myTrain->prezzo_biglietto = '13.00';
 
         $myTrain->save();
 
