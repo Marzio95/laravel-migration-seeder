@@ -26,6 +26,7 @@
             <h2>Prezzo biglietto: {{ $train->prezzo_biglietto }}€</h2>
         </li>
         @endforeach
+        <h3>Pagine Treni: {{ $myTrains->links() }}</h3>
     </ul>
     
 </body>

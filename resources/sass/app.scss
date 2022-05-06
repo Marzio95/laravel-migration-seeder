@@ -1,5 +1,25 @@
+body {
+    background-color: black;
+}
+
 ul {
     background-color: black;
     color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li {
     margin: 2rem;
+}
+
+h1 {
+    margin-bottom: 3rem;
+    width: 100%;
+    text-align: center;
+}
+
+h3 {
+    color: white;
+    width: 100%;
 }
