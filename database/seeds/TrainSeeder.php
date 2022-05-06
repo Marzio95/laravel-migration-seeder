@@ -25,7 +25,7 @@ class TrainSeeder extends Seeder
                 'in_orario'             => $faker->randomElement(['SI', 'NO']),
                 'cancellato'            => $faker->randomElement(['SI', 'NO']),
                 'prezzo_biglietto'      => $faker->numberBetween(10, 24),
-                'data_treno'            => $faker->date('Y:m:d'),
+                'data_treno'            => $faker->date('2022/m/d'),
             ];
 
             $newTrain = new Train();
