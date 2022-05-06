@@ -1,14 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+@extends('base')
+@section('pageTitle')
+    LISTA TRENI
+@endsection
 
-    <link rel="stylesheet" href="css/app.css">
-    <title>Trains Page</title>
-</head>
-<body>
+@section('pageMain')
+    
+
     <ul>
         <h1>Treni del giorno</h1>
         @foreach ($myTrains as $train)
@@ -28,6 +25,9 @@
         @endforeach
         <h3>Pagine Treni: {{ $myTrains->links() }}</h3>
     </ul>
+
+@endsection
+
+
+
     
-</body>
-</html>
